@@ -1,0 +1,9 @@
+# Modify to match your toolchain prefix:
+TOOL_PREFIX = riscv64-unknown-linux-gnu
+
+GCC = $(TOOL_PREFIX)-gcc
+AS = $(TOOL_PREFIX)-as
+LD = $(TOOL_PREFIX)-ld
+GDB = $(TOOL_PREFIX)-gdb
+
+QEMU = qemu-system-riscv64
