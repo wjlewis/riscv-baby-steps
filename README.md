@@ -17,6 +17,10 @@ You should have the [`riscv-gnu-toolchain`](https://github.com/riscv-collab/risc
 installed locally.
 During the installation process, a new family of tools should have been added to
 your path.
+
+**IMPORTANT** Need to add a curses development library in order for TUI mode in `gdb` to work.
+Not necessary, but useful.
+
 On my machine they all have the prefix:
 
 ```
